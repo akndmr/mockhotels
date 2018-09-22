@@ -1,0 +1,52 @@
+{
+  "data": [
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "BWAYT020",
+        "chainCode": "BW",
+        "dupeId": "700003141",
+        "name": "BEST WESTERN PLUS KHAN HOTEL",
+        "cityCode": "AYT",
+        "latitude": 36.88881,
+        "longitude": 30.70436
+      },
+      "available": true,
+      "offers": [
+        {
+          "id": "AA537EF80B4741E3E7ED46E6B34996C58C4BBFDC2F7C3785D1348D10743BC719",
+          "rateCode": "F1X",
+          "room": {
+            "type": "B1K",
+            "description": {
+              "lang": "tr",
+              "text": "SUPER STAR NON REFUNDABLE 1 KING BED,NSMK,COFMKR,DESK,AIRCON,WIFI STANDARD"
+            }
+          },
+          "guests": {
+            "adults": 1
+          },
+          "price": {
+            "currency": "EUR",
+            "base": "54.00",
+            "total": "54.00",
+            "variations": {
+              "average": {
+                "base": "54.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2018-09-22",
+                  "endDate": "2018-09-23",
+                  "total": "54.00"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v1/shopping/hotels/BWAYT020/hotel-offers"
+    }
+  ]
+}

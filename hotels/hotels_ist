@@ -1,0 +1,326 @@
+{
+  "data": [
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "WWISTTAK",
+        "chainCode": "WW",
+        "dupeId": "700013174",
+        "name": "POINT HOTEL TAKSIM",
+        "cityCode": "IST",
+        "latitude": 41.01356,
+        "longitude": 28.96352
+      },
+      "available": false,
+      "offers": [
+        {
+          "id": "947DE3DA65B954241EA7DD43842FCD70F8BEBC43F88C94CDE080A334F61C724C",
+          "rateCode": "PRO",
+          "commission": {
+            "percentage": "12.0"
+          },
+          "room": {
+            "type": "A1K",
+            "typeEstimated": {
+              "category": "DELUXE_ROOM",
+              "beds": 1,
+              "bedType": "KING"
+            },
+            "description": {
+              "lang": "EN",
+              "text": "Non Refundable Rate DELUXE ROOM/KING BED/28 SQM/CITY VIEW/  FREE WIFI/AIR CON/LCD TV/SAFEBOX/DESK/"
+            }
+          },
+          "guests": {
+            "adults": 1
+          },
+          "price": {
+            "currency": "EUR",
+            "total": "150.30",
+            "variations": {
+              "average": {
+                "total": "150.30"
+              }
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v1/shopping/hotels/WWISTTAK/hotel-offers"
+    },
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "CNIST556",
+        "chainCode": "CN",
+        "dupeId": "700003005",
+        "name": "CONRAD ISTANBUL",
+        "cityCode": "IST",
+        "latitude": 41.01356,
+        "longitude": 28.96353
+      },
+      "available": false,
+      "offers": [
+        {
+          "id": "C2BE8824DE84E1F30D210A4E4B8769C74841660D07C0E7B3A2C3B52AA2429580",
+          "rateCode": "RAC",
+          "room": {
+            "type": "C2T",
+            "typeEstimated": {
+              "category": "DELUXE_ROOM",
+              "beds": 2,
+              "bedType": "TWIN"
+            },
+            "description": {
+              "lang": "EN",
+              "text": "BEST AVAILABLE RATE TWIN DELUXE ROOM FRESH DESIGN-NESPRESSO MACHINE"
+            }
+          },
+          "guests": {
+            "adults": 1
+          },
+          "price": {
+            "currency": "EUR",
+            "total": "139.32",
+            "variations": {
+              "average": {
+                "total": "139.32"
+              }
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v1/shopping/hotels/CNIST556/hotel-offers"
+    },
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "HYISTIIS",
+        "chainCode": "HY",
+        "dupeId": "ISTAN",
+        "name": "GRAND HYATT ISTANBUL",
+        "cityCode": "IST",
+        "latitude": 41.01356,
+        "longitude": 28.96353
+      },
+      "available": true,
+      "offers": [
+        {
+          "id": "73407148221E10B8E79A7092F1985D6C7288CC04252103604F2A9CA4E3F49E57",
+          "rateCode": "DPR",
+          "commission": {
+            "percentage": "10.00"
+          },
+          "room": {
+            "type": "KNG",
+            "typeEstimated": {
+              "beds": 1,
+              "bedType": "KING"
+            },
+            "description": {
+              "lang": "tr",
+              "text": "Advance Purchase Grand King"
+            }
+          },
+          "guests": {
+            "adults": 1
+          },
+          "price": {
+            "currency": "EUR",
+            "base": "180.00",
+            "total": "194.40",
+            "taxes": [
+              {
+                "code": "TOTAL_TAX",
+                "amount": "14.40",
+                "included": true
+              }
+            ],
+            "variations": {
+              "average": {
+                "base": "180.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2018-09-22",
+                  "endDate": "2018-09-23",
+                  "base": "180.00"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v1/shopping/hotels/HYISTIIS/hotel-offers"
+    },
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "ONISTGAL",
+        "chainCode": "ON",
+        "dupeId": "700032234",
+        "name": "GALATA ANTIQUE HOTEL",
+        "cityCode": "IST",
+        "latitude": 41.01356,
+        "longitude": 28.96353
+      },
+      "available": false,
+      "offers": [
+        {
+          "id": "91DF243A37DC5E070DE79AA5C6FA501C09B69673CFBC67283EA07D05C26647A6",
+          "rateCode": "BAR",
+          "rateFamilyEstimated": {
+            "code": "BAR",
+            "type": "P"
+          },
+          "commission": {
+            "percentage": "8"
+          },
+          "boardType": "BREAKFAST",
+          "room": {
+            "type": "B2*",
+            "typeEstimated": {
+              "category": "STANDARD_ROOM",
+              "beds": 1,
+              "bedType": "DOUBLE"
+            },
+            "description": {
+              "lang": "EN",
+              "text": "Best available rate Classic Double, internet access, AC, flatscreenTV, DVD/CD player, phone, safe,"
+            }
+          },
+          "guests": {
+            "adults": 1
+          },
+          "price": {
+            "currency": "EUR",
+            "total": "159.00",
+            "variations": {
+              "average": {
+                "total": "159.00"
+              }
+            }
+          },
+          "policies": {
+            "cancellation": {
+              "deadline": "2018-09-22T18:00:00"
+            },
+            "guarantee": {
+              "acceptedPayments": {
+                "methods": [
+                  "CREDIT_CARD"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v1/shopping/hotels/ONISTGAL/hotel-offers"
+    },
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "BWIST001",
+        "chainCode": "BW",
+        "dupeId": "700003818",
+        "name": "BW PLUS THE PRESIDENT HOTEL",
+        "cityCode": "IST",
+        "latitude": 41.01356,
+        "longitude": 28.96353
+      },
+      "available": true,
+      "offers": [
+        {
+          "id": "30BF3EC46097B89744338F3CD209690CC9F6E2D4A3F8052BEA16B3E4EEC9EE61",
+          "rateCode": "F1X",
+          "boardType": "BREAKFAST",
+          "room": {
+            "type": "A1D",
+            "description": {
+              "lang": "tr",
+              "text": "SUPER STAR NON REFUNDABLE 1 DOUBLE BED,LCD TV,HISPD NET,SAFE, 1FREE BOTTLE WATER,FULL BREAKFAST"
+            }
+          },
+          "guests": {
+            "adults": 1
+          },
+          "price": {
+            "currency": "EUR",
+            "base": "89.10",
+            "total": "89.10",
+            "variations": {
+              "average": {
+                "base": "89.10"
+              },
+              "changes": [
+                {
+                  "startDate": "2018-09-22",
+                  "endDate": "2018-09-23",
+                  "total": "89.10"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v1/shopping/hotels/BWIST001/hotel-offers"
+    },
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "HLIST212",
+        "chainCode": "HL",
+        "dupeId": "700144017",
+        "name": "DOUBLETREE ISTANBUL OLD TOWN",
+        "cityCode": "IST",
+        "latitude": 41.00931,
+        "longitude": 28.96211
+      },
+      "available": false,
+      "offers": [
+        {
+          "id": "411E4DDDE10677FC08830C182737318612CFB85E1421072BF60D429CDC2B4A3B",
+          "rateCode": "RAC",
+          "rateFamilyEstimated": {
+            "code": "BAR",
+            "type": "P"
+          },
+          "room": {
+            "type": "E1K",
+            "typeEstimated": {
+              "beds": 1,
+              "bedType": "KING"
+            },
+            "description": {
+              "lang": "EN",
+              "text": "BEST AVAILABLE RATE KING GUEST ROOM WIFI/SWEET DREAMS BED/WALKIN SHOWER/MP3 CLOCK"
+            }
+          },
+          "guests": {
+            "adults": 1
+          },
+          "price": {
+            "currency": "EUR",
+            "total": "97.20",
+            "variations": {
+              "average": {
+                "total": "97.20"
+              }
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v1/shopping/hotels/HLIST212/hotel-offers"
+    }
+  ],
+  "meta": {
+    "links": {
+      "next": "https://test.api.amadeus.com/v1/shopping/hotel-offers?cityCode=IST&includeClosed=false&radius=5&radiusUnit=KM&page[offset]=GOGJFU2HD7SN_96"
+    }
+  }
+}

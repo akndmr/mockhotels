@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "HLANK243",
+        "chainCode": "HL",
+        "dupeId": "700035344",
+        "name": "ANKARA HILTONSA",
+        "cityCode": "ANK",
+        "latitude": 39.90185,
+        "longitude": 32.86437
+      },
+      "available": false,
+      "offers": [
+        {
+          "id": "947DE3DA65B954241EA7DD43842FCD70F8BEBC43F88C94CDE080A334F61C724C",
+          "rateCode": "RAC",
+          "rateFamilyEstimated": {
+            "code": "BAR",
+            "type": "P"
+          },
+          "room": {
+            "type": "C2T",
+            "typeEstimated": {
+              "beds": 2,
+              "bedType": "TWIN"
+            },
+            "description": {
+              "lang": "EN",
+              "text": "BEST AVAILABLE RATE TWIN GUEST ROOM SPACIOUS AND BRIGHT ROOM WITH CITY VIEW"
+            }
+          },
+          "guests": {
+            "adults": 1
+          },
+          "price": {
+            "currency": "EUR",
+            "total": "91.80",
+            "variations": {
+              "average": {
+                "total": "91.80"
+              }
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v1/shopping/hotels/HLANK243/hotel-offers"
+    },
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "BWANK015",
+        "chainCode": "BW",
+        "dupeId": "700046103",
+        "name": "BW HOTEL IKIBIN 2000",
+        "cityCode": "ANK",
+        "latitude": 39.94344,
+        "longitude": 32.82715
+      },
+      "available": true,
+      "offers": [
+        {
+          "id": "30BF3EC46097B89744338F3CD209690CC9F6E2D4A3F8052BEA16B3E4EEC9EE61",
+          "rateCode": "F1X",
+          "boardType": "BREAKFAST",
+          "room": {
+            "type": "A1D",
+            "description": {
+              "lang": "tr",
+              "text": "SUPER STAR NON REFUNDABLE 1 DOUBLE BED,HISPD INT,COF MKR,FREE PARKING, WORK DESK,FULL BREAKFAST"
+            }
+          },
+          "guests": {
+            "adults": 1
+          },
+          "price": {
+            "currency": "EUR",
+            "base": "45.00",
+            "total": "45.00",
+            "variations": {
+              "average": {
+                "base": "45.00"
+              },
+              "changes": [
+                {
+                  "startDate": "2018-09-22",
+                  "endDate": "2018-09-23",
+                  "total": "45.00"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v1/shopping/hotels/BWANK015/hotel-offers"
+    },
+    {
+      "type": "hotel-offers",
+      "hotel": {
+        "type": "hotel",
+        "hotelId": "MCANKJWM",
+        "chainCode": "MC",
+        "dupeId": "700152754",
+        "name": "JW MARRIOTT HOTEL ANKARA",
+        "cityCode": "ANK",
+        "latitude": 39.90924,
+        "longitude": 32.8072
+      },
+      "available": false,
+      "offers": [
+        {
+          "id": "EB1A1B3A708A1503B6161D79013CC76A8157908F6B04608423F370DB22B6CC7B",
+          "rateCode": "RAC",
+          "room": {
+            "type": "XMI",
+            "typeEstimated": {
+              "category": "DELUXE_ROOM"
+            },
+            "description": {
+              "lang": "EN",
+              "text": "Marriott Senior Discount, 62 years and older va Deluxe Room, 1 King or 2 Double, Mini fridge, 4 2sqm/452sqft, Living/sitting area, Wireless int"
+            }
+          },
+          "guests": {
+            "adults": 1
+          },
+          "price": {
+            "currency": "EUR",
+            "total": "210.22"
+          }
+        }
+      ],
+      "self": "https://test.api.amadeus.com/v1/shopping/hotels/MCANKJWM/hotel-offers"
+    }
+  ]
+}
